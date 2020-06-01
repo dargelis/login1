@@ -141,7 +141,6 @@ class  Chat2Screen extends React.Component{
             this.setState({prod_size: res[0]["prod_size"]});   
             console.log('PROD SIZE:',this.state.prod_size);                        
 
-
             if ((cmd) ) {  //if questions/answer wasn't sent then it will not be displayed
                 console.log("processed Sentence: ",sentence);
                 console.log("processed Answer: ",cmd);

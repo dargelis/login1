@@ -4,7 +4,6 @@ import { AsyncStorage } from 'react-native';
 import { DrawerActions } from '@react-navigation/native';
 import { GiftedChat } from 'react-native-gifted-chat'
 
-
 class  ChatScreen extends React.Component{
 
     state = {
